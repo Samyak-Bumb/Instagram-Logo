@@ -1,0 +1,66 @@
+*, *::before, *::after{
+    margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html, body{
+    background: #181818;
+	/* background: hsl(0, 0%, 93%); */
+}
+#insta{
+	margin: auto;
+	position: absolute;
+	display: block;
+	width: 144px;
+	height: 144px;
+    inset: 0;
+	outline: none;
+	-webkit-border-radius: 32px;
+	-moz-border-radius: 32px;
+	border-radius: 32px;
+	background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255,225,125) 0%, rgb(255,205,105) 10%, rgb(250,145,55) 28%, rgb(235,65,65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35,75,215) 12%, rgb(195,60,190) 58%);
+	background: -moz-radial-gradient(32% 106%, circle cover, rgb(255,225,125) 0%, rgb(255,205,105) 10%, rgb(250,145,55) 28%, rgb(235,65,65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35,75,215) 12%, rgb(195,60,190) 58%);
+	background: -ms-radial-gradient(32% 106%, circle cover, rgb(255,225,125) 0%, rgb(255,205,105) 10%, rgb(250,145,55) 28%, rgb(235,65,65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35,75,215) 12%, rgb(195,60,190) 58%);
+	background: -o-radial-gradient(32% 106%, circle cover, rgb(255,225,125) 0%, rgb(255,205,105) 10%, rgb(250,145,55) 28%, rgb(235,65,65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35,75,215) 12%, rgb(195,60, 190) 58%);
+	background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255,225,125) 0%, rgb(255,205,105) 10%, rgb(250,145,55) 28%, rgb(235,65,65) 42%, transparent 82%), linear-gradient(135deg, rgb(35,75,215) 12%, rgb(195,60,190) 58%);
+}
+#insta i#logo{
+	display: block;
+	position: absolute;
+	margin: auto;
+	width: 106px;
+	height: 106px;
+    inset: 0;
+	border: 9.8px solid rgb(255, 255, 255);
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+#insta i#logo::before{
+	content: ' ';
+	display: block;
+	position: absolute;
+	margin: auto;
+	width: 54.8px;
+	height: 54.8px;
+    inset: 0;
+	border: 9.8px solid rgb(255, 255, 255);
+	-webkit-border-radius: 27.4px;
+	-moz-border-radius: 27.4px;
+	border-radius: 27.4px;
+}
+#insta i#logo::after{
+	content: ' ';
+	display: block;
+	position: absolute;
+	width: 12.8px;
+	top: 8.6px;
+	right: 8.6px;
+	height: 12.8px;
+	background: rgb(255, 255, 255);
+	-webkit-border-radius: 6.4px;
+	-moz-border-radius: 6.4px;
+	border-radius: 6.4px;
+}
